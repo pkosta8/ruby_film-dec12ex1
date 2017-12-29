@@ -20,3 +20,23 @@ response_comedy = gets.to_i
 
 puts "dramedy"
 response_dramedy = gets.to_i
+
+
+
+#results
+
+if response_documentry >= 4
+  puts "You need to see  #{documentry}"
+
+elsif response_drama >= 4 
+  puts "You should see #{dramedy}"
+
+elsif response_drama >= 4
+  puts "You should watch #{drama}"
+
+elsif response_comedy >= 4
+  puts "You gotta watch #{comedy}"
+
+else
+  puts "You should read 'The Hobbit'"
+end
