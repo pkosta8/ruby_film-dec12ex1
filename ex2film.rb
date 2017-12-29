@@ -28,7 +28,7 @@ response_dramedy = gets.to_i
 if response_documentry >= 4
   puts "You need to see  #{documentry}"
 
-elsif response_drama >= 4 && response_comedy >= 3
+elsif response_drama >= 4 && response_comedy >= 4
   puts "You should see #{dramedy}"
 
 elsif response_drama >= 4
