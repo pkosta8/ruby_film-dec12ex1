@@ -1,3 +1,5 @@
+# db entries to variables
+
 documentry = "who killed the electric car"
 drama = "saving private ryan"
 comedy = "shrek"
@@ -5,21 +7,21 @@ dramedy = "there's something about mary"
 
 
 puts " Respond YES if you like the movie or NO if you do not?"
-
-
-response_documentry = gets.chomp
+#response stored
 puts "documentry"
+response_documentry = gets.chomp
 
-response_drama = gets.chomp
 puts "drama"
+response_drama = gets.chomp
 
-response_comedy = gets.chomp
 puts "comedy"
+response_comedy = gets.chomp
 
-response_dramedy = gets.chomp
 puts "dramedy"
+response_dramedy = gets.chomp
 
-if response_drama == "YES" && awnser_comedy == "YES"
+#results
+if response_drama == "YES" && response_comedy == "YES"
   puts "You should see #{dramedy}"
 
 elsif response_documentry == "YES"
