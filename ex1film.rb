@@ -19,16 +19,16 @@ puts "comedy"
 response_dramedy = gets.chomp
 puts "dramedy"
 
-if awnser_drama == "YES" && awnser_comedy == "YES"
+if response_drama == "YES" && awnser_comedy == "YES"
   puts "You should see #{dramedy}"
 
-elsif awnser_documentry == "YES"
+elsif response_documentry == "YES"
   puts "You need to see #{documentry}"""
 
-elsif awnser_comedy == "YES"
+elsif response_comedy == "YES"
   puts "You should try #{comedy}"
 
-elsif awnser_drama ==   "YES"
+elsif response_drama ==   "YES"
   puts "You gotta watch #{drama}"
 
 else
